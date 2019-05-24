@@ -1,4 +1,4 @@
-const objectifyValues = require('./csv-to-json.js');
+const objectifyValues = require('./csv-converter.js');
 
 test('converts csv to an object', () => {
   const csv = `
