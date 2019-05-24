@@ -5,18 +5,24 @@
   "homepage": "https://github.com/zalando/tech-radar#readme",
   "repository": "https://github.com/zalando/tech-radar.git",
   "license": "MIT",
+  "jest": {
+    "verbose": true
+  },
   "directories": {
     "doc": "docs"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "eslint": "^5.7.0",
-    "htmllint": "^0.7.2"
+    "htmllint": "^0.7.2",
+    "jasmine": "^3.4.0",
+    "jest": "^24.8.0"
   },
   "scripts": {
     "start": "browser-sync docs -w",
     "lint": "npm run lint:js && npm run lint:html",
     "lint:js": "eslint docs/*.js",
-    "lint:html": "htmllint docs/*.html"
+    "lint:html": "htmllint docs/*.html",
+    "test": "jest"
   }
 }

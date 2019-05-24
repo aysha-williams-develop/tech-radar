@@ -1,0 +1,10 @@
+name,ring,quadrant,isNew,description  
+Ruby,adopt,languages & frameworks,FALSE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow. "  
+Backbone,hold,languages & frameworks,FALSE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow. "  
+GraphQL,assess,languages & frameworks,TRUE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow. "  
+Swipe,adopt,languages & frameworks,FALSE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow."
+Extreme Programming,adopt,tools,FALSE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow."
+Pair Programming,adopt,techniques,FALSE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow."  
+AWS,adopt,platforms,TRUE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow."  
+Kubernetes,adopt,platforms,FALSE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow."
+Cupcake ipsum,trial,tools,TRUE,"Cupcake ipsum dolor sit amet croissant jelly-o soufflé marshmallow."
