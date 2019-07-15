@@ -1,22 +1,23 @@
-const objectifyValues = require('./csv-converter.js');
+// import objectifyValues from './csv-converter.js';
+const objectifyValues = require('./csv-converter.js')
 
 test('converts csv to an object', () => {
   const csv = `
-    3,2,"GraphQL",true,"", false\r\n
-    4,1,"Javascript",false,"www.example.com",true\r\n
+    GraphQL,trial,languages & frameworks,ACTIVE,,FALSE
+    Solo Programming,hold,techniques,INACTIVE,www.example.com,TRUE
   `
   const obj = [{ 
-    quadrant: 3,
-    ring: 2,
+    quadrant: 0,
+    ring: 1,
     label: "GraphQL",
     active: true,
     link: "",
     moved: 0
   },
   {
-    quadrant: 4,
-    ring: 1,
-    label: "Javascript",
+    quadrant: 3,
+    ring: 3,
+    label: "Solo Programming",
     active: false,
     link: "www.example.com",
     moved: 1
