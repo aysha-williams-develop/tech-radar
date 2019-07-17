@@ -1,36 +1,6 @@
 import objectifyValues from './csv-converter.js';
 import readCsvFile from './csv-retriever.js';
 
-console.log(objectifyValues(readCsvFile('./data.csv')))
-console.log( 
-  [
-    {
-          quadrant: 1,
-          ring: 0,
-          label: "Ruby",
-          active: true,
-          link: " ",
-          moved: 2
-    }, 
-    {
-          quadrant: 1,
-          ring: 3,
-          label: "Backbone.js",
-          active: true,
-          link: " ",
-          moved: 0
-    }, 
-    {
-        quadrant: 3,
-        ring: 2,
-        label: "GraphQL",
-        active: true,
-        link: " ",
-        moved: 0
-    },
-  
-  ])
-
 radar_visualization({
   svg_id: "radar",
   width: 1450,
@@ -40,11 +10,11 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Zalando Tech Radar — 2018.10",
+  title: "Mavenlink Tech Radar - 2019",
   quadrants: [
-    { name: "Languages" },
-    { name: "Infrastructure" },
     { name: "Tools" },
+    { name: "Infrastructure" },
+    { name: "Languages & Frameworks" },
     { name: "Techniques" }
   ],
   rings: [
@@ -55,6 +25,5 @@ radar_visualization({
   ],
   print_layout: true,
   // zoomed_quadrant: 0,
-  //ENTRIES
   entries: objectifyValues(readCsvFile('./data.csv'))
 });

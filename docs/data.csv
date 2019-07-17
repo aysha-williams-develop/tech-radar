@@ -1,4 +1,8 @@
+Backbone,hold,languages & frameworks,ACTIVE,,TRUE
+Docker,adopt,infrastructure,ACTIVE,https://www.docker.com/,FALSE
 GraphQL,trial,languages & frameworks,ACTIVE,,FALSE
-Solo Programming,hold,techniques,INACTIVE,www.example.com,TRUE
-Stuff1,adopt,infrastructure,INACTIVE,www.example.com,TRUE
-Stuff2,assess,tools,INACTIVE,www.example.com,TRUE
+Kubernetes,adopt,infrastructure,ACTIVE,https://kubernetes.io/,FALSE
+Ruby,adopt,languages & frameworks,ACTIVE,https://www.ruby-lang.org/en/,FALSE
+Solo Programming,hold,techniques,INACTIVE,,FALSE
+Stripe,adopt,languages & frameworks,ACTIVE,,TRUE
+XP - Extreme Programming,adopt,techniques,ACTIVE,https://www.agilealliance.org/glossary/xp/,FALSE

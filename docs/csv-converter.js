@@ -34,8 +34,8 @@ function convertBooleanToInt(str) {
 
 function getQuadrant(str) {
   return {
-    "languages & frameworks": 0,
-    "tools": 2,
+    "languages & frameworks": 2,
+    "tools": 0,
     "techniques": 3,
     "infrastructure": 1
   }[str.toLowerCase().trim()]
