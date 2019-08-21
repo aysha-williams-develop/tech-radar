@@ -3,7 +3,7 @@ const objectifyValues = require('./csv-converter.js')
 
 test('converts csv to an object', () => {
   const csv = `
-    GraphQL,trial,languages & frameworks,ACTIVE,,FALSE
+    GraphQL,trial,languages_frameworks,ACTIVE,,FALSE
     Solo Programming,hold,techniques,INACTIVE,www.example.com,TRUE
     thing1,adopt,tools,INACTIVE,www.example.com,TRUE
     thing2,assess,infrastructure,ACTIVE,www.example.com,FALSE
